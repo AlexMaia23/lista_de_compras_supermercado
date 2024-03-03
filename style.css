@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #478aae;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 12px; /* aumentei o espaço entre os itens da lista */
+}
+
+input[type="checkbox"] {
+  margin-right: 12px; /* adicionado um espaçamento entre a caixa de seleção e o texto */
+}
+li {
+  margin-bottom: 12px; /* aumentei o espaço entre os itens da lista */
+}
+
+input[type="checkbox"] {
+  margin-right: 8px; /* adicionado um espaçamento entre a caixa de seleção e o texto */
+}
+footer {
+  margin-top: 4rem;
+  padding: 2rem;
+  text-align: center;
+}

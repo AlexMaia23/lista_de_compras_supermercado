@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Compras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Lista de Compras para o Supermercado</h1>
+  </header>
+
+  <main>
+    <section>
+      <form id="addItemForm">
+        <label for="itemInput">Item:</label>
+        <input type="text" id="itemInput" placeholder="Digite o item..." required>
+        <label for="priceInput">Preço (ex: 3,25):</label>
+        <input type="text" id="priceInput" placeholder="Digite o preço com vírgula">
+
+        <label for="quantityInput">Quantidade:</label>
+        <input type="number" id="quantityInput" placeholder="Digite a quantidade..." required>
+        <button type="submit">Adicionar</button>
+      </form>
+    </section>
+
+    <section>
+      <ul id="itemList"></ul>
+      <div id="total"></div>
+      <div><button id="resetButton">Limpar Lista</button></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+<footer class="footer">
+
+  <a href="https://github.com/AlexMaia23" target="_blank">@alexmaia - Github </a>
+</footer>
+
+</html>
